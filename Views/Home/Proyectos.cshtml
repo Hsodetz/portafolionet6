@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Proyecto>
+
+@{
+    ViewData["Title"] = "Proyectos";
+}
+
+<div class="container">
+    <h1>Mis trabajos recientes</h1>
+    <p>Aquí puedes ver algunos de mis trabajos recientes</p>
+</div>
+
+<partial name="_ListadoProyectos" model="Model" />
